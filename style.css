@@ -1,0 +1,44 @@
+html {background-image: url("bg.jpg");
+background-attachment: fixed; }
+#bodyframe {
+  background: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  width :80%;
+  height:700px;
+  box-shadow :20px 20px 50px 10px  rgb(20, 20, 20);  
+  background-image: url("bruddah.png");
+   background-repeat: no-repeat;
+   background-position: center top;
+}
+.sticky {
+ box-shadow :20px 20px 50px 10px  rgb(20, 20, 20);  
+  background-color: #b8d4ff;
+  margin: auto;
+  width: 80%;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  text-align: center;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+.pootIS {
+  box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); 
+  background-color: #b8d4ff;
+  padding: 2px;
+  float: right;
+  margin: 10px;
+  opacity: 0.9 ;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  color: #000;
+}
+.footer {
+margin: auto;
+box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); 
+font-family: 'Comfortaa', cursive;
+text-align: center;
+background-color:#b8d4ff;
+width: 80%;
+padding-top: 4px;
+padding-bottom: 5px;
+opacity: 0.9 ;
+}
