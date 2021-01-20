@@ -1,7 +1,7 @@
-html {background-image: url("bg.jpg");
+html {background-image: url(Snow.gif), url(Bng.gif);
 background-attachment: scroll; }
 #bodyframe {border-radius: 7px 7px 0px 0px;
-    padding-top: 2px;
+    padding: 1vw;
   background: rgba(255, 255, 255, 0.5);
   margin: auto;
   width :80%;
@@ -18,16 +18,15 @@ background-attachment: scroll; }
   width: 80%;
   font-family: 'Big Shoulders Stencil Display', cursive;
   text-align: center;
-  padding-bottom: 4px;
-  padding-top: 4px;
+  padding:1vw;
 }
 .pootIS {border-radius: 7px;
   box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); 
   background-color: #b8d4ff;
   padding: 2px;
   float: right;
-  margin: 10px;
-  opacity: 0.9 ;
+  margin-top:10px;
+  opacity:0.9;
   font-family: 'Comfortaa', cursive;
   text-align: center;
   color: #000;
@@ -39,13 +38,18 @@ font-family: 'Comfortaa', cursive;
 text-align: center;
 background-color:#b8d4ff;
 width: 80%;
-padding-top: 4px;
-padding-bottom: 5px;
+padding:1vw;
 opacity: 0.9 ;
 }
 .games {
   font-family: 'Comfortaa', cursive;
   text-align: center;
   background-color: #b8d4ff;
-
+ float: left;
+ padding-top: 4px;
+ padding-bottom: 5px;
+ opacity: 0.9 ;
+ border-radius: 7px;
+ margin-top:4px;
+ box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); 
 }
