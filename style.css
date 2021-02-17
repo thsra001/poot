@@ -1,17 +1,17 @@
-html {background-image: url(Snow.gif), url(Bng.gif);
+html {background-image: url(e.gif), url(Bng.gif);
 background-attachment: scroll; }
-#bodyframe {border-radius: 7px 7px 0px 0px;
-    padding: 1vw;
+
+#bodyframe {padding: 1vw;
   background: rgba(255, 255, 255, 0.5);
   margin: auto;
   width :80%;
-  height:700px;
+  height: 60vw;
   box-shadow :20px 20px 50px 10px  rgb(20, 20, 20);  
   background-image: url("bruddah.png");
    background-repeat: no-repeat;
    background-position: center top;
 }
-.sticky {  border-radius: 7px;
+.sticky {  border-radius: 1vw 1vw 0px 0px;
  box-shadow :20px 20px 50px 10px  rgb(20, 20, 20);  
   background-color: #b8d4ff;
   margin: auto;
@@ -20,18 +20,18 @@ background-attachment: scroll; }
   text-align: center;
   padding:1vw;
 }
-.pootIS {border-radius: 7px;
+.pootIS {border-radius: 1vw;
   box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); 
   background-color: #b8d4ff;
-  padding: 2px;
+  padding: 0.25vw;
   float: right;
-  margin-top:10px;
+  margin-top:0.5vw;
   opacity:0.9;
   font-family: 'Comfortaa', cursive;
   text-align: center;
   color: #000;
 }
-.footer {border-radius: 0px 0px 7px 7px;
+.footer {border-radius: 0px 0px 1vw 1vw;
 margin: auto;
 box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); 
 font-family: 'Comfortaa', cursive;
@@ -46,10 +46,12 @@ opacity: 0.9 ;
   text-align: center;
   background-color: #b8d4ff;
  float: left;
- padding-top: 4px;
- padding-bottom: 5px;
+ padding-top: 0.1vw;
+ padding-bottom: 0.5vw;
  opacity: 0.9 ;
- border-radius: 7px;
- margin-top:4px;
+ border-radius: 1vw;
+ margin-top:0.5vw;
  box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); 
 }
+
+.about {overflow: auto; border-radius: 1vw;font-family: 'Comfortaa', cursive;text-align: center; box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); margin:auto; background-color: #b8d4ff;opacity: 0.9 ;width:100%; margin-top: 1vw; }
