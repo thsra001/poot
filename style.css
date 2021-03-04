@@ -1,7 +1,8 @@
 html {background-image: url(e.gif), url(Bng.gif);
 background-attachment: scroll; }
-
-#bodyframe {padding: 1vw;
+/*i sat everything in a div to make it cleaner to code in css*/
+/*animate.css is very usefull*/
+.bodyframe {padding: 1vw;
   background: rgba(255, 255, 255, 0.5);
   margin: auto;
   width :80%;
@@ -51,7 +52,20 @@ opacity: 0.9 ;
  opacity: 0.9 ;
  border-radius: 1vw;
  margin-top:0.5vw;
+ color: black;
  box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); 
 }
 
 .about {overflow: auto; border-radius: 1vw;font-family: 'Comfortaa', cursive;text-align: center; box-shadow :20px 20px 50px 10px  rgb(20, 20, 20); margin:auto; background-color: #b8d4ff;opacity: 0.9 ;width:100%; margin-top: 1vw; }
+
+.bro {
+  background-color:#b8d4ff ;
+  border-radius: 1vw;
+ font-family: 'Comfortaa', cursive;
+ text-align: center;
+  opacity: 0.9;
+  margin-left: 20vw;
+  width:29vw;
+   color: black !important;
+   /*i sat the underline so if somebody looks at the trash site, i can laugh at them/
+}
